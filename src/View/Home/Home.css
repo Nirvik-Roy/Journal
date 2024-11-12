@@ -1,0 +1,104 @@
+.home-banner-main{
+    width: 100%;
+    max-width:100%;
+    min-width: 100%;
+   background-image:linear-gradient(to right, rgba(0, 0, 0, 0.53),rgba(3, 1, 19, 0.753)), url('../../Images/Group 74638.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding-bottom: 50px;
+}
+.banner-heading-wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.home-heading-div{
+    width: 100%;
+    max-width: 46%;
+    min-width: 46%;
+    text-align: center;
+    
+}
+.home-heading{
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-weight: normal;
+}
+.home-head-span{
+    color: #39FF14;
+}
+.home-para-div{
+    width: 100%;
+    max-width: 22%;
+    min-width: 22%;
+    text-align: center;
+    margin-top: 25px;
+}
+.home-para{
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.early-access-btn-wrapper{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 30px;
+    z-index: 2;
+}
+.early-access-btn{
+    width: 100%;
+    max-width: 160px;
+    min-width: 160px;
+    background-image: linear-gradient(to right,#39FF14,#1d830b91 );
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    color: black;
+    border: none;
+    height: 45px;
+    border-radius: 8px;
+}
+.watch-demo-btn{
+    width: 100%;
+    max-width: 160px;
+    min-width: 160px;
+   border: 1px solid #39FF14;
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    color: white;
+    height: 45px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+.banner-img{
+    width: 100%;
+    max-width: 40%;
+    min-width: 40%;
+    height: 400px;
+    margin-top: 40px;
+    z-index: 2;
+}
+.banner-img img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+}
+.button-image-wrapper{
+    position: relative;
+}
+.blur-div{
+    position: absolute;
+    top: 330px;
+    background-color: rgb(10, 36, 7);
+    width: 100%;
+    max-width: 170px;
+    min-width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    z-index: 1;
+    filter: blur(28px);
+}
