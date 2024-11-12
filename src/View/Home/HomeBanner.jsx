@@ -29,10 +29,13 @@ const HomeBanner = () => {
              <div className='banner-img'>
                 <img src={banner}></img>
              </div>
+
+
             </div>
             </div>
         </div>
      </section>
+     {/* <div className='height'></div> */}
     </>
   )
 }
