@@ -15,6 +15,14 @@ ul{
 figure{
   margin: 0;
 }
+body{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.667)), url('./Images/rb_2147742910 2 (2).png') ;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 .nav-bar{
   background-color: transparent;
 }

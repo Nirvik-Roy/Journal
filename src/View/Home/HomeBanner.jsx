@@ -3,10 +3,11 @@ import './Home.css'
 import Header from '../../Layout/Header'
 import shadow from '../../Images/Ellipse 3.png'
 import banner from '../../Images/image.png'
+import Homeperformance from './Homeperformance'
 const HomeBanner = () => {
   return (
     <>
-     <section>
+     <section className='home-banner-section'>
         <div className='all-in-one-wrapper'>
             <div className='home-banner-main'>
             <Header/>
@@ -35,7 +36,8 @@ const HomeBanner = () => {
             </div>
         </div>
      </section>
-     {/* <div className='height'></div> */}
+  
+
     </>
   )
 }
