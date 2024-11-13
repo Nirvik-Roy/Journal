@@ -5,7 +5,9 @@ const Hometradingjournal = () => {
     <>
       <section>
         <div className='all-in-one-wrapper'>
-            <div className='home-trading-journal'></div>
+            <div className='home-trading-journal'>
+                <div className='clip'></div>
+            </div>
         </div>
       </section>
     </>
