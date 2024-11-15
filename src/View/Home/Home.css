@@ -333,12 +333,238 @@
         
       }
       .home-trading-journal{
-        height: 100vh;
-        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.53),rgba(3, 1, 19, 0.792)), url('../../Images/rb_2147742910 2 (2).png') ;
+        padding-top: 100px;
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.53),rgba(3, 1, 19, 0.862)), url('../../Images/rb_2147742910 2 (2).png') ;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 70px;
+      }
+      .shadow-img{
+        position: absolute;
+        top: 193px;
+        left: -130px;
+        width: 100%;
+        max-width: 30%;
+        min-width: 30%;
+        height: 75%;
+        border-radius: 50%;
+        background-color: rgb(32, 21, 81);
+        filter: blur(100px);
+        /* display: none; */
+      }
+      .tradding-journal-content-div{
+        width: 100%;
+        max-width: 73%;
+        min-width: 73%;
+        padding: 45px 0px 42px 0px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.34),rgba(3, 1, 19, 0.231)),  url('../../Images/Group 74647 (1).png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+      }
+      .trading-journal-left{
+        width: 100%;
+        max-width: 45%;
+        min-width: 45%;
+        height: 100%;
+        padding-left: 70px;
+      }
+      .trading-journal-right{
+        width: 100%;
+        max-width: 55%;
+        min-width: 55%;
+      }
+      .trading-journal-head{
+        font-family: Poppins,sans-serif;
+        color: rgb(172, 166, 197);
+        font-size: 32px;
+        font-weight: 400;
+      
+      }
+      .trading-journal-para{
+        font-family: Poppins,sans-serif;
+        color: rgb(186, 179, 209);
+        font-size: 14.5px;
+        font-weight: 200;
+     
+        width: 100%;
+        max-width: 90%;
+        min-width: 90%;
+        text-align: left;
+        line-height: 22px;
+        margin-top: 15px;
+      }
+    
+      .journal-trade-para{
+        font-family: Poppins,sans-serif;
+        color: rgb(190, 184, 213);
+        font-size: 16px;
+        font-weight: 300;
+     
+        text-align: left;
+        
+      }
+      .journal-content-1{
+        margin-top: 22px;
+      }
+      .trading-journal-img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        
+        height: 450px;
+      }
+      .trading-journal-img img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+      }
+      .journal-content-wrapper{
+       padding-left: 20px;
       }
       
+      .find-your-trading-edge-main{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        
+        background-image: linear-gradient(to bottom, rgb(12, 13, 31),rgb(4, 10, 36));
+        display: flex;
+        justify-content: center;
+        height: 68vh;
+      }
+      .find-your-trading-edge-wrapper{
+        width: 100%;
+        max-width: 76.5%;
+        min-width: 76.5%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .left-trading{
+        z-index: 9;
+        width: 100%;
+        max-width: 56%;
+        min-width: 56%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        height: 522px;
+        background-image: linear-gradient(to bottom left, rgb(173, 44, 233),rgba(34, 25, 96, 0.915));
+      }
+      .right-trading{
+        width: 100%;
+        max-width: 40%;
+        min-width: 40%;
+        z-index: 9;
+      }
+      .left-trading-img{
+        width: 100%;
+        max-width: 92%;
+        min-width: 92%;
+        height: 410px;
+      }
+      .left-trading-img img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+      }
+      .right-trading-head{
+        color: rgb(249, 254, 255);
+        font-size: 31px;
+        font-weight: 400;
+        font-family: Poppins,sans-serif;
+      }
+      .right-trading-para{
+        width: 100%;
+        max-width: 88%;
+        min-width: 88%;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.945);
+        font-family: Poppins;
+        font-size: 14.5px;
+        font-weight: 300;
+        line-height: 23px;
+
+      }
+      .right-trading-para-head-div{
+        margin-top: 20px;
+      }
+      .right-trading-para-head{
+        width: 100%;
+        max-width: 88%;
+        min-width: 88%;
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.975);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 300;
+      }
         /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
-   
+   .smart-trades-feedback-main{
+    background-image:linear-gradient(to right, rgba(2, 7, 24, 0.855),rgba(3, 1, 19, 0.831)), url('../../Images/rb_2147742910 2 (2).png') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        z-index: 8;
+        display: flex;
+        justify-content: center;
+        padding-top: 130px;
+        padding-bottom: 100px;
+   }
+   .green-shadow{
+    position: absolute;
+    width: 100%;
+    max-width: 35%;
+    min-width: 35%;
+    height: 500px;
+    background-color: rgb(12, 44, 5);
+    top: 130px;
+    right: 0;
+    border-radius: 50%;
+    filter: blur(100px);
+     }
+     .padding{
+      padding-top: 132px;
+     }
+     .background{
+      background-image: linear-gradient(to bottom left,rgb(48, 122, 35), rgb(145, 247, 127)) !important;
+     }
+     .trading-market-main{
+      height: 50vh;
+      background-image:linear-gradient(to right, rgba(3, 1, 19, 0.785),rgba(3, 1, 19, 0.785)), url('../../Images/rb_2147742910 2 (2).png') ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      
+     }
+     .purple-shadow{
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      max-width: 25%;
+      min-width: 25%;
+      height: 500px;
+      background-color: rgb(26, 18, 69);
+      filter: blur(60px);
+     }
+     .journal-on-go{
+      background-image:linear-gradient(to right, rgba(3, 1, 19, 0.785),rgba(3, 1, 19, 0.785)), url('../../Images/rb_2147742910 2 (2).png') ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+     }
